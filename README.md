@@ -1,71 +1,55 @@
-# hhz-terminal README
-
-This is the README for your extension "hhz-terminal". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Here’s a rewritten version of the README for your **"hhz-terminal"** extension:
 
 ---
 
-## Following extension guidelines
+# hhz-terminal README
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+Welcome to **hhz-terminal**, the ultimate one-click solution to quickly open a new terminal in Visual Studio Code! With this extension, you can save time and streamline your workflow by accessing a terminal directly from the bottom-right corner of your VS Code window.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+## Features
+
+- **One-Click Terminal**: Instantly open a new terminal session by clicking the terminal icon in the status bar.
+- **Status Bar Integration**: The terminal icon is conveniently located in the bottom-right corner of your VS Code window for easy access.
+  
+  ![hhz-terminal status bar icon](images/status-bar-icon.png)
+
+### Why hhz-terminal?
+
+- Quick and easy access to your terminal without navigating through menus.
+- Perfect for developers who rely on the terminal for tasks like running scripts, debugging, or managing files.
+
+## Requirements
+
+No additional dependencies or configurations are needed. Just install the extension, and you’re ready to go!
+
+## Extension Settings
+
+Currently, this extension doesn't introduce any custom settings. It’s designed to be simple and easy to use out of the box.
+
+## Known Issues
+
+There are no known issues at this time. If you encounter any bugs, please report them on our GitHub page.
+
+## Release Notes
+
+### 1.0.0
+
+- Initial release of **hhz-terminal**.
+- Added a terminal icon to the status bar for easy terminal access.
+
+---
+
+## Guidelines and Best Practices
+
+To ensure the best experience, we’ve followed the [Visual Studio Code Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines).
 
 ## Working with Markdown
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+If you wish to customize this README, Visual Studio Code offers great support for Markdown. You can preview your changes live using the following shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- Split the editor: `Cmd+\` on macOS or `Ctrl+\` on Windows and Linux.
+- Toggle preview: `Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux.
 
-## For more information
+For more details on Markdown, check out the [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/).
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Enjoy using hhz-terminal to make your terminal tasks easier and faster!**
