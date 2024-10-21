@@ -3,7 +3,7 @@
   "displayName": "hhz-terminal",
   "description": "Effortlessly open a new terminal with just one click! This extension adds a convenient terminal icon to the status bar in Visual Studio Code. Simply click the icon at the bottom right corner to instantly launch a new terminal session.",
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "heinhtetzan",
   "icon": "images/icon.png",
   "repository": {
@@ -16,7 +16,9 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
