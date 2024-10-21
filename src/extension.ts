@@ -1,19 +1,25 @@
-import * as vscode from 'vscode';
+import * as vscode from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
   // Command to open terminal
-  let openTerminalCommand = vscode.commands.registerCommand('extension.openTerminal', () => {
-    vscode.commands.executeCommand('workbench.action.terminal.new');
-  });
+  let openTerminalCommand = vscode.commands.registerCommand(
+    "extension.openTerminal",
+    () => {
+      vscode.commands.executeCommand("workbench.action.terminal.new");
+    }
+  );
 
-  // Add an icon to the status bar
-  let terminalStatusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
-  terminalStatusBarItem.command = 'extension.openTerminal';  // Bind command to icon
-  terminalStatusBarItem.text = `$(terminal)`; // VS Code icon for terminal
+  // Create a status bar item
+  let terminalStatusBarItem = vscode.window.createStatusBarItem(
+    vscode.StatusBarAlignment.Right,
+    100
+  );
+  terminalStatusBarItem.command = "extension.openTerminal"; // Attach command to the status bar item
+  terminalStatusBarItem.text = `$(terminal)`; // Set the icon
   terminalStatusBarItem.tooltip = "Open New Terminal";
-  terminalStatusBarItem.show();
+  terminalStatusBarItem.show(); // Ensure it's visible
 
-  // Add both command and status bar item to subscriptions
+  // Add the command and status bar item to subscriptions
   context.subscriptions.push(openTerminalCommand, terminalStatusBarItem);
 }
 
