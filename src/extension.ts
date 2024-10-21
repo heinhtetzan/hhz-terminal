@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
     100
   );
   terminalStatusBarItem.command = "extension.openTerminal"; // Attach command to the status bar item
-  terminalStatusBarItem.text = `$(terminal)`; // Set the icon
+  terminalStatusBarItem.text = `Terminal`; // Set the icon
   terminalStatusBarItem.tooltip = "Open New Terminal";
   terminalStatusBarItem.show(); // Ensure it's visible
 
